@@ -6,6 +6,9 @@ import boxchair3 from "../assets/boxchair3.png"
 import boxchair4 from "../assets/chair9.png"
 import blackclock from "../assets/blackclock.png"
 import table from "../assets/table.png"
+import chair11 from "../assets/chair11.png"
+import chair12 from "../assets/chair12.png"
+import chair13 from "../assets/chair13.png"
 
 
 const Trend = () => {
@@ -61,7 +64,7 @@ const Trend = () => {
             </div>
         </div>
 
-        <div className="flex justify-between">
+        <div className="flex justify-between py-16">
           <div className="w-[34%] bg-[#FFF6FB] py-4 px-4">
             <div className="flex justify-end"> 
               <div className="">
@@ -83,16 +86,48 @@ const Trend = () => {
               <a className="font-sans  text-[18px] font-normal text-[#FB2E86]" href="">Shop Now</a>
               </div>
               <div className="">
-                
               <img className="mt-10" src={table} alt="" />
               </div>
             </div>
-            
-           
           </div>
           
           <div className="w-[29%]">
-            
+             <div className="">
+              <div className="flex my-3">
+              <div className="bg-[#F5F6F8] w-[107px] h-[74px]">
+                <img src={chair11} alt="" />
+              </div>
+              <div className="px-3">
+                <h5 className="text-[#151875] font-sans text-[16px] font-normal ">Executive Seat chair</h5>
+                <p className="text-[#151875] font-sans text-[12px] font-normal">$32.00</p>
+                </div>
+              </div>
+             </div>
+             <div className="">
+             <div className="flex my-6">
+              <div className="bg-[#F5F6F8] w-[107px] h-[74px]">
+                <img src={chair12} alt="" />
+              </div>
+              <div className="px-3">
+                <h5 className="text-[#151875] font-sans text-[16px] font-normal ">Executive Seat chair</h5>
+                <p className="text-[#151875] font-sans text-[12px] font-normal">$32.00</p>
+                </div>
+              </div>
+             </div>
+             <div className="">
+             <div className="flex my-6">
+              <div className="bg-[#F5F6F8] w-[107px] h-[74px]">
+                <img src={chair13} alt="" />
+              </div>
+              <div className="px-3">
+                <h5 className="text-[#151875] font-sans text-[16px] font-normal ">Executive Seat chair</h5>
+                <p className="text-[#151875] font-sans text-[12px] font-normal">$32.00</p>
+                </div>
+              </div>
+             </div>
+
+
+             
           </div>
         </div>
 

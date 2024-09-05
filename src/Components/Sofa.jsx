@@ -29,6 +29,7 @@ const Sofa = () => {
                 </div>
             </div>
             </div>
+            
          </div>
      </Container>
    </section>
